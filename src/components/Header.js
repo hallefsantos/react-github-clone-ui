@@ -207,7 +207,7 @@ const Header = () => {
                            Signed in as <strong>hallefsantos</strong>
                         </div>
                         <div className="py-2 pl-4 pr-2">
-                           <div class="p-1 truncate text-gray-600 text-xs border border-gray-200 rounded">
+                           <div className="p-1 truncate text-gray-600 text-xs border border-gray-200 rounded">
                               <a href="#" className="hover:text-blue-500">
                                  👨🏻‍💻 Front End Developer | 🏠  Working from home.
                               </a>
