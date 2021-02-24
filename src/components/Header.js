@@ -122,6 +122,7 @@ const Header = () => {
             <div className="relative flex items-center">
                <button 
                   onClick={() => setIsMenuRepositoryOpen(!isMenuRepositoryOpen)}
+                  onBlur={() => setIsMenuRepositoryOpen(false)}
                   className="flex items-center text-white hover:text-gray-300 focus:outline-none"
                >
                   <BsPlus className="h-6 w-6" />
@@ -187,6 +188,7 @@ const Header = () => {
             <div className="relative flex items-center">
                <button 
                   onClick={() => setIsMenuProfileOpen(!isMenuProfileOpen)}
+                  onBlur={() => setIsMenuProfileOpen(false)}
                   className="flex items-center text-white hover:text-gray-300 focus:outline-none"
                >
                   <img 
